@@ -1,13 +1,15 @@
 # ComplexFileComparisonTool
-### Introduction:
+### Introduction
 A file comparison tool in python 3 which is able to deal with multiple complex situation.
 
-### Purpose:
+### Purpose
 Find mtached lines with two files as many as possible.
 
-### Progress:
+### Progress
 
-#### V1.0 Basic file comparison 3/18/2021
+#### V1.0
+
+##### **Basic file comparison** 3/18/2021
 - Compare two files with unlimited sizes
 - The tool will find where to start comparing by finding the first matched part
 - A 100-lines buffer will be used for comparison
