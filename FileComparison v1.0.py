@@ -3,15 +3,15 @@
 import sys
 import re
 
-# check if log2 starts first
+# check if file2 starts first
 file1 = open(sys.argv[1], "r")
 file2 = open(sys.argv[2], "r")
 line1 = file1.readline()
 line2 = file2.readline()
 
 flag = 0
-matchedLines = 0 # if lines in two logs are fully matched
-unmatched = 0 # if lines are not matched compared with two logs 
+matchedLines = 0 # if lines in two files are fully matched
+unmatched = 0 # if lines are not matched compared with two files 
 
 if lineLog1 in file2:
     while True:
@@ -40,7 +40,7 @@ if lineLog1 in file2:
             matchedLines += 1
 
 
-# Thus log1 will start first
+# Thus file1 will start first
 secondFile1 = open(sys.argv[1], "r")
 secondFile2 = open(sys.argv[2], "r")
 secondLine1 = secondFile1.readline()
